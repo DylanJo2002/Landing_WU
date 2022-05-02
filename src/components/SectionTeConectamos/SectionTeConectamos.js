@@ -24,7 +24,7 @@ function SectionTeConectamos() {
           </div>
 
           <div className="col-6">
-            <img src={persona} alt="Persona con computador y dinero"/>
+            <img className='imgPersona' src={persona} alt="Persona con computador y dinero"/>
           </div>
 
         </div>

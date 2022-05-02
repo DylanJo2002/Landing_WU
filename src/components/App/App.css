@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "MuseoSans";
+    src: url("./Fonts/MuseoSans.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "MuseoSans-700";
+    src: url("./Fonts/MuseoSans-700.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "MuseoSans-900";
+    src: url("./Fonts/MuseoSans-900.otf") format("opentype");
+}
+
+
+
 /*RESET STYLES*/
 html {
     box-sizing: border-box;
@@ -6,8 +24,45 @@ html {
     box-sizing: inherit;
 }
 
+/*Fonts*/
+
+.museoSans {
+    font-family: MuseoSans;
+}
+
+.museoSans700 {
+    font-family: MuseoSans-700;
+}
+
+.museoSans900 {
+    font-family: MuseoSans-700;
+}
+
+/*Sizing headings*/
+
+.h1 {
+   font-size: 3.7rem!important; 
+}
+
+.h2 {
+    font-size: 2.4rem!important; 
+}
+
+.h3 {
+    font-size: 1.8rem!important; 
+}
+
 /*Colors*/
 
 .yellow {
     background-color: #FFDD09;
+}
+
+.black {
+    color: #000000;
+}
+
+.soft_grey {
+    background-color: #F5F5F5;
+
 }

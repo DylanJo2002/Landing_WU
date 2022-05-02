@@ -1,0 +1,32 @@
+name: CI/CD
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    strategy:
+      max-parallel: 1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Apt get update
+        run: sudo apt-get update
+        
+      - name: Apt get upgrade
+        run: sudo apt-get upgrade
+        
+      - name: Install node modules
+        run: npm install      
+        
+      - name: Run app
+        run: npm run start            
+        
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: 74e0d1e1-5d8a-44fc-9776-2cfaee9e0b34
+          heroku_app_name: "landing-wu"
+          heroku_email: "dilan.bergano@correounivalle.edu.co"
+          branch: "main"        
+        
+        

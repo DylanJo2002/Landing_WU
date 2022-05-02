@@ -1,0 +1,13 @@
+/*RESET STYLES*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Colors*/
+
+.yellow {
+    background-color: #FFDD09;
+}

@@ -2,6 +2,10 @@
     margin-left: -4rem;
 }
 
+.logoWU {
+    width: auto;
+}
+
 /*Desktop responsive*/
 
 @media (max-width: 1207px) {
@@ -16,5 +20,11 @@
     .imgPersona {
         margin-left: 0;
     }    
+}
+
+@media (max-width: 575px) {
+    .logoWU {
+        width: 14rem;
+    }
 }
 

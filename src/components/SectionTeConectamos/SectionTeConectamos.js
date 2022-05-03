@@ -22,7 +22,7 @@ function SectionTeConectamos() {
             </div>
           </div>
 
-          <div className="col-12 col-lg-6 p-0">
+          <div className="col-12 col-lg-6 p-0 text-center text-lg-left">
             <img className='imgPersona img-fluid' src={persona} alt="Persona con computador y dinero"/>
           </div>
 

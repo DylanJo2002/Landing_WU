@@ -12,7 +12,7 @@ function SectionTeConectamos() {
               <img className='logoWU' src={logoWU} alt="Logo de Western Union"/>
             </div>
             <div>
-              <p className='black text-center text-lg-start'><span className='h1 museoSans'>Te conectamos</span>
+              <p className='black text-start'><span className='h1 museoSans'>Te conectamos</span>
                 <br/>
                 <span className='h3 museoSans700'>con más de 200 países a través
                   <br/>del</span> <span className='h2 museoSans'>Cobro y Envío de

@@ -1,3 +1,20 @@
 .imgPersona {
     margin-left: -4rem;
 }
+
+/*Desktop responsive*/
+
+@media (max-width: 1207px) {
+    .imgPersona {
+        height: 32rem;
+    }    
+}
+
+/*Movile responsive*/
+
+@media (max-width: 991px) {
+    .imgPersona {
+        margin-left: 0;
+    }    
+}
+

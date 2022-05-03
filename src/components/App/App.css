@@ -66,3 +66,29 @@ html {
     background-color: #F5F5F5;
 
 }
+
+.container_movile {
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+
+/*Movil responsive*/
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .container_movile {
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+    .h1 {
+        font-size: 2.5rem!important; 
+     }
+     
+    .h2 {
+         font-size: 1.6rem!important; 
+    }
+     
+    .h3 {
+         font-size: 1.2rem!important; 
+    }
+}

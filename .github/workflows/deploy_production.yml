@@ -1,7 +1,7 @@
 name: Deploy to Heroku - Prod
 on:
   push:
-    branches: [ develop ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest

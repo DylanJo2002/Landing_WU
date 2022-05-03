@@ -4,7 +4,7 @@ import persona from './img/persona_dinero.png'
 
 function SectionTeConectamos() {
   return (
-    <div className='soft_grey my-0 pt-5 pt-lg-0'>
+    <div className='bg_soft_grey my-0 pt-5 pt-lg-0'>
       <div className='container-lg container_movile'>
         <div className="row p-0 m-0">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center p-0">

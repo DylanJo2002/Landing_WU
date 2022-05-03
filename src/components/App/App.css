@@ -38,6 +38,11 @@ html {
     font-family: MuseoSans-700;
 }
 
+.font_oblique {
+    font-style: oblique;
+}
+
+
 /*Sizing headings*/
 
 .h1 {
@@ -52,6 +57,7 @@ html {
     font-size: 1.8rem!important; 
 }
 
+
 /*Colors*/
 
 .yellow {
@@ -62,9 +68,28 @@ html {
     color: #000000;
 }
 
+.white {
+    color: #FFFFFF;
+}
+
 .soft_grey {
     background-color: #F5F5F5;
 
+}
+
+/*Backgrounds*/
+
+.bg_yellow {
+    background-color: #FFDD09;
+}
+
+.bg_soft_grey {
+    background-color: #F5F5F5;
+
+}
+
+.white {
+    background-color: #FFFFFF;
 }
 
 /*Containers*/

@@ -10,6 +10,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: 74e0d1e1-5d8a-44fc-9776-2cfaee9e0b34
-          heroku_app_name: "landing-wu-develop"
+          heroku_app_name: "landing-wu"
           heroku_email: "dilan.bergano@correounivalle.edu.co"
           branch: "main"

@@ -5,11 +5,11 @@ class Header extends  Component {
     const {type} = this.props;
     return (
       type === 'header' ?
-      <header className='yellow'>
+      <header className='bg_yellow'>
         <Content></Content>
       </header> 
       :
-      <footer className='yellow'>
+      <footer className='bg_yellow'>
         <Content></Content>
       </footer> 
     )

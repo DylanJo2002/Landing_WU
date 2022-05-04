@@ -1,0 +1,52 @@
+.container_pasos {
+    max-width: calc(100% - (50% - 363px))!important;
+    padding-top: 12rem;
+}
+
+.container_paso {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    width: 10rem;
+}
+
+.container_sectionReclamarColombia {
+    height: 47rem;
+}
+
+.container_circular {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_content_paso {
+    max-width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font_size_angle_breakets{
+    font-size: 1.2rem;
+}
+
+.font_size_recuerda {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 991px){
+    .container_pasos {
+        padding-left: 2.5rem!important;
+        padding-right: 2.5rem!important;
+    }
+    .container_sectionReclamarColombia {
+        height: 92.5rem;
+    }
+    .container_content_paso {
+        max-width: none;
+    }
+}
+

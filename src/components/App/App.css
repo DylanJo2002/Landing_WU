@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 @font-face {
     font-family: "MuseoSans";
     src: url("./Fonts/MuseoSans.otf") format("opentype");
@@ -42,6 +44,10 @@ html {
     font-style: oblique;
 }
 
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /*Sizing headings*/
 
@@ -61,7 +67,7 @@ html {
 /*Colors*/
 
 .yellow {
-    background-color: #FFDD09;
+    color: #FFDD09;
 }
 
 .black {
@@ -88,10 +94,14 @@ html {
 
 }
 
-.white {
+.bg_white {
     background-color: #FFFFFF;
 }
 
+.bg_black {
+    background-color: #000000;
+
+}
 /*Containers*/
 
 .container_movile {

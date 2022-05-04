@@ -17,8 +17,11 @@ jobs:
       - name: Install heroku-cli
         run:  sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
-      - name: Set heroku variable and clone repository
-        run: export HEROKU_API_KEY=74e0d1e1-5d8a-44fc-9776-2cfaee9e0b34 heroku git:clone -a landing-wu-develop
+      - name: Set heroku variable
+        run: export HEROKU_API_KEY=74e0d1e1-5d8a-44fc-9776-2cfaee9e0b34
+
+      - name: Clone heroku repository
+        run: heroku run ls --app landing-wu-develop; heroku git:clone -a landing-wu-develop
 
       - name: Move to heroku local repo
         run: cd landing-wu-develop
@@ -27,7 +30,7 @@ jobs:
         run: heroku plugins:install
 
       - name: Purge cache
-        run: heroku repo:purge_cache -a landing-wu-develop
+        run: heroku builds:cache:purge -a landing-wu-develop --confirm landing-wu-develop
 
       - name: Commit purged
         run: git commit --allow-empty -m "Purge cache"

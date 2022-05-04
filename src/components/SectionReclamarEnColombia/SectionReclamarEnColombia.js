@@ -68,7 +68,8 @@ function SectioReclamarEnColombia(){
                                             <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
                                         </div>
                                         <p className='mb-0 ps-2'>Portal web<br/>
-                                            <strong><a href="www.girosyfinanzas.com" className='text-decoration-none black'>
+                                            <strong><a href="http://www.girosyfinanzas.com" className='text-decoration-none black'
+                                                target="_blank" rel='noreferrer'>
                                                 www.girosyfinanzas.com</a></strong></p>
                                     </div>
                                     <div className='col-12 d-flex align-items-center'>

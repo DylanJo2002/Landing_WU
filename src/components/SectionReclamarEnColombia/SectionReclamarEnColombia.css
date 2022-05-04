@@ -37,4 +37,16 @@
     font-size: 0.9rem;
 }
 
+@media (max-width: 991px){
+    .container_pasos {
+        padding-left: 2.5rem!important;
+        padding-right: 2.5rem!important;
+    }
+    .container_sectionReclamarColombia {
+        height: 92.5rem;
+    }
+    .container_content_paso {
+        max-width: none;
+    }
+}
 

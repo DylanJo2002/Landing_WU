@@ -6,37 +6,37 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
     
       - name: Update ubuntu
-      - run: sudo apt-get update
+        run: sudo apt-get update
 
       - name: Upgrade ubuntu
-      - run: sudo apt-get upgrade
+        run: sudo apt-get upgrade
 
       - name: Install heroku-cli
-      - run:  sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+        run:  sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
       - name: Set heroku variable
-      - run: export HEROKU_API_KEY=74e0d1e1-5d8a-44fc-9776-2cfaee9e0b34
+        run: export HEROKU_API_KEY=74e0d1e1-5d8a-44fc-9776-2cfaee9e0b34
 
       - name: Clone heroku repository
-      - run: heroku git:clone -a landing-wu-develop
+        run: heroku git:clone -a landing-wu-develop
 
       - name: Move to heroku local repo
-      - run: cd landing-wu-develop
+        run: cd landing-wu-develop
 
       - name: Install Heroku plugin
-      - run: heroku plugins:install
+        run: heroku plugins:install
 
       - name: Purge cache
-      - run: heroku repo:purge_cache -a landing-wu-develop
+        run: heroku repo:purge_cache -a landing-wu-develop
 
       - name: Commit purged
-      - run: git commit --allow-empty -m "Purge cache"
+        run: git commit --allow-empty -m "Purge cache"
 
       - name: Push purged
-      - run: git push heroku main
+        run: git push heroku main
       
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:

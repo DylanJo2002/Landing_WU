@@ -5,12 +5,23 @@ import Card1 from './cards/Card1';
 import Card2 from './cards/Card2';
 import Card3 from './cards/Card3';
 import Card4 from './cards/Card4';
+import persona from './img/mujer_monedas.png'
 
 class SectionGirosDirecto extends  Component {
+
+
+    resetCarrousel = ({index}) => {
+        if(index === 2){
+            setTimeout(()=>{
+                this.carousel.goTo(0);
+            }, 5000)
+        }
+    }
+
     render(){
         return (
             <div className='bg_black'>
-                <div className="row mb-5">
+                <div className="row mb-5 mx-0">
                     <div className="col-12 col-lg-6 d-flex flex-column align-items-center pt-5">
                         <div className='text-start'>
                             <p className='museoSans h2'>
@@ -25,24 +36,23 @@ class SectionGirosDirecto extends  Component {
                             <p className="museoSans700 yellow font_size_explicamos">¡Aquí te explicamos cómo hacerlo!</p>
                         </div>
                     </div>
+                    <div className="col-12 col-lg-6">
+                        <img className="img_mujer" src={persona} alt="Mujer ahorrando" />
+                    </div>
                 </div>
-                {/* enableAutoPlay={true} autoPlaySpeed={5000} */}
-                <Carousel itemsToShow={1}  
-                      ref={ref => (this.carousel = ref)} onNextStart={(currentItem, nextItem) =>{
-                          console.log(currentItem.index, currentItem)
-                        if(currentItem.index == 3){
-                            console.log("Ultimo item pasado");
-                            console.log(this.carousel.goTo(1));
-                        }
-                      }
-                      }>
-    
-                    <Card1></Card1>
-                    <Card2></Card2>
-                    <Card3></Card3>
-                    <Card4></Card4>
-    
-                </Carousel>
+                <div className="container_carrousel">
+                    <Carousel itemsToShow={2}  
+                        ref={ref => (this.carousel = ref)} enableAutoPlay={true} autoPlaySpeed={5000}
+                        onNextEnd={this.resetCarrousel} 
+                        >
+                            
+                        <Card1></Card1>
+                        <Card2></Card2>
+                        <Card3></Card3>
+                        <Card4></Card4>
+        
+                    </Carousel>
+                </div>
             </div>
         )
     }

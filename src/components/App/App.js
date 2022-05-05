@@ -3,6 +3,7 @@ import HeaderFooter from '../HeaderFooter/Header'
 import SectionTeConectamos from '../SectionTeConectamos/SectionTeConectamos';
 import SectionReclamarEnColombia from '../SectionReclamarEnColombia/SectionReclamarEnColombia';
 import SectionGirosDirecto from '../SectionGirosDirecto/SectionGirosDirecto';
+import SectionComoEnviar from '../SectionComoEnviar/SectionComoEnviar';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SectionTeConectamos></SectionTeConectamos>
       <SectionReclamarEnColombia></SectionReclamarEnColombia>
       <SectionGirosDirecto></SectionGirosDirecto>
+      <SectionComoEnviar></SectionComoEnviar>
       <HeaderFooter type="footer"></HeaderFooter>
     </div>
   );

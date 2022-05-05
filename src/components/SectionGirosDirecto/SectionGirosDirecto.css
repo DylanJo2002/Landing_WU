@@ -8,8 +8,56 @@
 
 .container_paso_giro_directo {
     padding-top: 4rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     height: 30rem;
-    width: 34rem;
+    width: fit-content;
 }   
+
+.container_carrousel {
+    margin-bottom: -8rem;
+    max-width: calc(100% - (50% - 363px))!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*REC styling*/
+.rec.rec-arrow {
+    display: none;
+}
+
+/*Contains dots*/
+.rec.rec-pagination {
+}
+
+.rec.rec-dot {
+    margin-top: 2rem;
+    background-color: black;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.rec.rec-dot:hover {
+    box-shadow: none;
+}
+
+.rec.rec-dot_active {
+    background-color: #FFDD09;
+}
+
+.carouselItem{
+    padding-right: 40px
+}  
+
+.img_mujer {
+    position: absolute;
+    z-index: 1;
+    margin-top: -3rem;
+    height: 27rem;
+}
+
+@media (max-width: 1200px) and (min-width:992px){
+    .container_carrousel {
+        max-width: calc(100% - (50% - 464px))!important;
+    }
+}

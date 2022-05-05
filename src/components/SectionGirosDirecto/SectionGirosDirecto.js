@@ -54,7 +54,7 @@ class SectionGirosDirecto extends  Component {
                             </Carousel>
                         </div>
                         <div className="container_carrousel d-lg-none">
-                            <Carousel itemsToShow={1}>  
+                            <Carousel itemsToShow={1} itemPadding={[0, 5]}>  
                                 <Card1></Card1>
                                 <Card2></Card2>
                                 <Card3></Card3>

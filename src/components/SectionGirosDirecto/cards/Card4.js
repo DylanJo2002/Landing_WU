@@ -5,7 +5,7 @@ import dinero from '../img/money.png'
 function Card4(){
     return (
         <div className='bg_white container_paso_giro_directo'>
-            <p className='h3 mb-4 mb-lg-5'>Desde nuestras oficinas</p>
+            <p className='h3 mb-4 mb-lg-5'><strong>Desde nuestras oficinas</strong></p>
             
             <div className='d-flex align-items-center mb-4'>
                 <img src={password} alt="Ícono de celular" />

@@ -36,23 +36,34 @@ class SectionGirosDirecto extends  Component {
                             <p className="museoSans700 yellow font_size_explicamos">¡Aquí te explicamos cómo hacerlo!</p>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 d-flex justify-content-center d-lg-block">
                         <img className="img_mujer" src={persona} alt="Mujer ahorrando" />
                     </div>
+
+                    <div className="col-12">
+                        <div className="container_carrousel d-none d-lg-block">
+                            <Carousel itemsToShow={2}  
+                                ref={ref => (this.carousel = ref)} enableAutoPlay={true} autoPlaySpeed={5000}
+                                onNextEnd={this.resetCarrousel} 
+                                >  
+                                <Card1></Card1>
+                                <Card2></Card2>
+                                <Card3></Card3>
+                                <Card4></Card4>
+                
+                            </Carousel>
+                        </div>
+                        <div className="container_carrousel d-lg-none">
+                            <Carousel itemsToShow={1}>  
+                                <Card1></Card1>
+                                <Card2></Card2>
+                                <Card3></Card3>
+                                <Card4></Card4>
+                            </Carousel>
+                        </div>
+                    </div>
                 </div>
-                <div className="container_carrousel">
-                    <Carousel itemsToShow={2}  
-                        ref={ref => (this.carousel = ref)} enableAutoPlay={true} autoPlaySpeed={5000}
-                        onNextEnd={this.resetCarrousel} 
-                        >
-                            
-                        <Card1></Card1>
-                        <Card2></Card2>
-                        <Card3></Card3>
-                        <Card4></Card4>
-        
-                    </Carousel>
-                </div>
+
             </div>
         )
     }

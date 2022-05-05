@@ -61,3 +61,23 @@
         max-width: calc(100% - (50% - 464px))!important;
     }
 }
+
+@media (max-width: 991px){
+    .img_mujer {
+        position: relative;
+        margin-top: 0;
+        height: 14rem;
+        margin-bottom: -1rem;
+    }
+    .container_paso_giro_directo {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 329px){
+    .container_paso_giro_directo {
+        height: 33rem;
+    }
+}

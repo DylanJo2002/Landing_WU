@@ -109,6 +109,12 @@ html {
     padding-right: 0;
 }
 
+/*UTILS*/
+
+.fit_content {
+    width: fit-content;
+}
+
 /*Movil responsive*/
 
 @media (max-width: 991px) {
@@ -117,11 +123,11 @@ html {
         padding-right: 1rem!important;
     }    
     .h1 {
-        font-size: calc(12.3vw)!important;
+        font-size: calc(12.3vw - 2px)!important;
     }
     
     .h2 {
-        font-size: calc(8vw)!important;
+        font-size: calc(8vw - 1px)!important;
     }
     
     .h3, h3 {

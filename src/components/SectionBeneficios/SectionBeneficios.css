@@ -1,0 +1,32 @@
+.container_beneficios {
+    border-top-style: solid;
+    border-top-color: #ffffff;
+    border-top-width: 0.5px;
+}
+
+.container_content_beneficios {
+    max-width: calc(100% - (50% - 363px))!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_content_beneficio_centro {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_carrousel_beneficios .rec.rec-dot {
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.container_carrousel_beneficios  .rec.rec-dot:hover {
+    box-shadow: none;
+}
+
+.container_carrousel_beneficios  .rec.rec-dot_active {
+    background-color: #FFDD09;
+}

@@ -5,6 +5,7 @@ import SectionReclamarEnColombia from '../SectionReclamarEnColombia/SectionRecla
 import SectionGirosDirecto from '../SectionGirosDirecto/SectionGirosDirecto';
 import SectionComoEnviar from '../SectionComoEnviar/SectionComoEnviar';
 import SectionEnvioDirecto from '../SectionEnvioDirecto/SectionEnvioDirecto';
+import SectionBeneficios from '../SectionBeneficios/SectionBeneficios';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SectionGirosDirecto></SectionGirosDirecto>
       <SectionComoEnviar></SectionComoEnviar>
       <SectionEnvioDirecto></SectionEnvioDirecto>
+      <SectionBeneficios></SectionBeneficios>
       <HeaderFooter type="footer"></HeaderFooter>
     </div>
   );

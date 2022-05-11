@@ -30,18 +30,18 @@
 .rec.rec-pagination {
 }
 
-.rec.rec-dot {
+.container_carrousel .rec.rec-dot {
     margin-top: 2rem;
     background-color: black;
     border-radius: 0;
     box-shadow: none;
 }
 
-.rec.rec-dot:hover {
+.container_carrousel  .rec.rec-dot:hover {
     box-shadow: none;
 }
 
-.rec.rec-dot_active {
+.container_carrousel  .rec.rec-dot_active {
     background-color: #FFDD09;
 }
 

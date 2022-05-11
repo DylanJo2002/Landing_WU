@@ -1,0 +1,29 @@
+.container_s6 {
+    padding-top: 7rem;
+    height: 47rem;
+}
+
+.container_conocelos {
+    width: fit-content;
+    padding: 0.6rem 3em;
+    border-radius: 0.3rem;
+    margin: 2rem 0;
+}
+
+.container_col_envio_directo {
+    position: absolute;
+    margin-left: 7rem;
+}
+
+@media (max-width: 991px){
+    .container_col_envio_directo {
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+    .container_s6 {
+        height: auto;
+        padding-top: 2rem;
+
+    }
+}

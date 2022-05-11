@@ -1,0 +1,17 @@
+.container_pc_amazon {
+    padding-top: 5rem;
+}
+
+.container_section_amazon {
+    padding: 5rem 0;
+}
+
+@media (max-width: 991px){
+    .container_section_amazon {
+        padding: 2rem;
+    } 
+    .container_pc_amazon {
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+}

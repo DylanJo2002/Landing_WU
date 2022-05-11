@@ -1,0 +1,46 @@
+.a {
+    /* height: 10rem; */
+    margin-top: -3rem;
+}
+
+.row_como_enviar {
+    padding-top: 10rem;
+}
+
+.container_text1_s4 {
+    width: fit-content;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-top: 5rem;
+}
+
+.container_text2_s4 {
+    width: fit-content;
+    padding-left: 1rem;
+    padding-top: 5rem; 
+}
+
+.container_numero {
+    height: 2rem;
+    width: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container_mujer_dinero {
+    padding-right: 10%;
+}
+
+@media (max-width: 991px){
+    .container_text1_s4 {
+        padding-right: 0;
+        padding-top: 0; 
+    }
+    .container_text2_s4 {
+        padding-left: 0;
+    }
+    .container_mujer_dinero {
+        padding-right: 0;
+    }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 @font-face {
     font-family: "MuseoSans";
     src: url("./Fonts/MuseoSans.otf") format("opentype");
@@ -42,6 +44,10 @@ html {
     font-style: oblique;
 }
 
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /*Sizing headings*/
 
@@ -61,7 +67,7 @@ html {
 /*Colors*/
 
 .yellow {
-    background-color: #FFDD09;
+    color: #FFDD09;
 }
 
 .black {
@@ -88,15 +94,25 @@ html {
 
 }
 
-.white {
+.bg_white {
     background-color: #FFFFFF;
 }
 
+.bg_black {
+    background-color: #000000;
+
+}
 /*Containers*/
 
 .container_movile {
     padding-left: 0;
     padding-right: 0;
+}
+
+/*UTILS*/
+
+.fit_content {
+    width: fit-content;
 }
 
 /*Movil responsive*/
@@ -107,11 +123,11 @@ html {
         padding-right: 1rem!important;
     }    
     .h1 {
-        font-size: calc(12.3vw)!important;
+        font-size: calc(12.3vw - 2px)!important;
     }
     
     .h2 {
-        font-size: calc(8vw)!important;
+        font-size: calc(8vw - 1px)!important;
     }
     
     .h3, h3 {

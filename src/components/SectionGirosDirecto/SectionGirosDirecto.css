@@ -1,0 +1,83 @@
+.font_size_enviaron {
+    font-size: 0.9rem;
+}
+
+.font_size_explicamos {
+    font-size: 1.2rem;
+}
+
+.container_paso_giro_directo {
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 30rem;
+    width: fit-content;
+}   
+
+.container_carrousel {
+    margin-bottom: -8rem;
+    max-width: calc(100% - (50% - 363px))!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*REC styling*/
+.rec.rec-arrow {
+    display: none;
+}
+
+/*Contains dots*/
+.rec.rec-pagination {
+}
+
+.container_carrousel .rec.rec-dot {
+    margin-top: 2rem;
+    background-color: black;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.container_carrousel  .rec.rec-dot:hover {
+    box-shadow: none;
+}
+
+.container_carrousel  .rec.rec-dot_active {
+    background-color: #FFDD09;
+}
+
+.carouselItem{
+    padding-right: 40px
+}  
+
+.img_mujer {
+    position: absolute;
+    z-index: 1;
+    margin-top: -3rem;
+    height: 24rem;
+}
+
+@media (max-width: 1200px) and (min-width:992px){
+    .container_carrousel {
+        max-width: calc(100% - (50% - 464px))!important;
+    }
+}
+
+@media (max-width: 991px){
+    .img_mujer {
+        position: relative;
+        margin-top: 0;
+        height: 14rem;
+        margin-bottom: -1rem;
+    }
+    .container_paso_giro_directo {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 329px){
+    .container_paso_giro_directo {
+        height: 33rem;
+    }
+}

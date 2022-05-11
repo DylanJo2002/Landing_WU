@@ -4,6 +4,7 @@ import SectionTeConectamos from '../SectionTeConectamos/SectionTeConectamos';
 import SectionReclamarEnColombia from '../SectionReclamarEnColombia/SectionReclamarEnColombia';
 import SectionGirosDirecto from '../SectionGirosDirecto/SectionGirosDirecto';
 import SectionComoEnviar from '../SectionComoEnviar/SectionComoEnviar';
+import SectionEnvioDirecto from '../SectionEnvioDirecto/SectionEnvioDirecto';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SectionReclamarEnColombia></SectionReclamarEnColombia>
       <SectionGirosDirecto></SectionGirosDirecto>
       <SectionComoEnviar></SectionComoEnviar>
+      <SectionEnvioDirecto></SectionEnvioDirecto>
       <HeaderFooter type="footer"></HeaderFooter>
     </div>
   );

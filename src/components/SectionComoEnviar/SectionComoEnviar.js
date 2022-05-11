@@ -6,7 +6,7 @@ import mujer_dinero from './img/mujer_dinero.png'
 function SectionComoEnviar(){
     return (
 
-        <div className="bg_soft_grey a">
+        <div className="bg_soft_grey a pb-5">
             <div className="row row_como_enviar mx-0">
                 <div className="col-12 text-center mb-5">
                     <p className='h1 museoSans black d-none d-lg-block'>¿Cómo enviar Giros<br/>Internacionales?</p>

@@ -30,8 +30,8 @@ function SectionAmazon() {
 
                         <div className="d-flex">
                             <div>
-                                <div class="fit_content bg_yellow rounded-circle container_numero">
-                                    <h5 class="mb-0">1</h5>
+                                <div className="fit_content bg_yellow rounded-circle container_numero">
+                                    <h5 className="mb-0">1</h5>
                                 </div>
                             </div>
                             <p className='ps-2'>Realiza tu proceso de compra con normalidad en <strong>
@@ -44,8 +44,8 @@ function SectionAmazon() {
 
                         <div className="d-flex">
                             <div>
-                                <div class="fit_content bg_yellow rounded-circle container_numero">
-                                    <h5 class="mb-0">2</h5>
+                                <div className="fit_content bg_yellow rounded-circle container_numero">
+                                    <h5 className="mb-0">2</h5>
                                 </div>
                             </div>
                             <p className='ps-2'>

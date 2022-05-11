@@ -6,6 +6,7 @@ import SectionGirosDirecto from '../SectionGirosDirecto/SectionGirosDirecto';
 import SectionComoEnviar from '../SectionComoEnviar/SectionComoEnviar';
 import SectionEnvioDirecto from '../SectionEnvioDirecto/SectionEnvioDirecto';
 import SectionBeneficios from '../SectionBeneficios/SectionBeneficios';
+import SectionAmazon from '../SectionAmazon/SectionAmazon';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <SectionComoEnviar></SectionComoEnviar>
       <SectionEnvioDirecto></SectionEnvioDirecto>
       <SectionBeneficios></SectionBeneficios>
+      <SectionAmazon></SectionAmazon>
       <HeaderFooter type="footer"></HeaderFooter>
     </div>
   );

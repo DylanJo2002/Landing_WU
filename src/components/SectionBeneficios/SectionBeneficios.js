@@ -6,7 +6,7 @@ import img_red from './img/b_red.png'
 
 function SectionBeneficios(){
     return (
-        <div className='bg_black container_beneficios'>
+        <div className='bg_black'>
             <div className="container_content_beneficios">
                 <div className='text-center text-lg-start py-5'>
                     <p className='white museoSans h2 mb-0'>Beneficios</p>

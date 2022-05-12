@@ -84,7 +84,7 @@ function SectionComoEnviar(){
                                     <h5 className='mb-0'>2</h5>
                                 </div>
                             </div>
-                            <p className='ps-3'>Deberá proporcionar tus datos: nombre y número de cédula.</p>
+                            <p className='ps-3'>Deberás proporcionar tus datos: nombre y número de cédula.</p>
                         </div>
 
                         <div className="d-flex flex column">

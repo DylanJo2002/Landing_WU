@@ -3,7 +3,7 @@ import celular from '../img/phone.png'
 
 function Card2(){
     return (
-        <div className='bg_white container_paso_giro_directo'>
+        <div className='bg_white container_paso_giro_directo border_cards'>
             <p className='h3 mb-4 mb-lg-5'><strong>Desde nuestra línea de<br className='d-lg-none'/>
                 atención al cliente</strong></p> 
             

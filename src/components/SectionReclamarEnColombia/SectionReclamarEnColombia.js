@@ -14,7 +14,7 @@ function SectioReclamarEnColombia(){
 
                 <div className="container_pasos position-absolute end-0 start-0 row mx-auto
                  px-lg-0 gap-4 justify-content-center">
-                        <div className="col-12 col-lg bg_soft_grey container_paso">
+                        <div className="col-12 col-lg bg_soft_grey container_paso border_cards">
                             <div className='container_content_paso'>
                                 <p className='museoSans700 h3 mb-4 d-none d-lg-block'>
                                     Para hacerlo, <br />
@@ -51,7 +51,7 @@ function SectioReclamarEnColombia(){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg bg_soft_grey container_paso">
+                        <div className="col-12 col-lg bg_soft_grey container_paso border_cards">
                             <div className="container_content_paso">
                                 <p className='museoSans700 h3 mb-4'>
                                     Hazlo a través de:
@@ -87,7 +87,7 @@ function SectioReclamarEnColombia(){
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg bg_soft_grey container_paso">
+                        <div className="col-12 col-lg bg_soft_grey container_paso border_cards">
                             <div className="container_content_paso">
                                 <p className='museoSans700 h3 mb-4'>
                                     O en nuestros<br />

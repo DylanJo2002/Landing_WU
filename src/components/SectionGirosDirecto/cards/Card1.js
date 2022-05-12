@@ -4,7 +4,7 @@ import celular_checked from '../img/phone_check.png'
 
 function Card1(){
     return (
-        <div className='bg_white container_paso_giro_directo'>
+        <div className='bg_white container_paso_giro_directo border_cards'>
             <p className='h3 mb-4 mb-lg-5'><strong>Desde nuestro portal web</strong></p>
             
             <div className='d-flex align-items-center mb-4'>

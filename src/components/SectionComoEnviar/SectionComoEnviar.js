@@ -20,14 +20,14 @@ function SectionComoEnviar(){
                             <br/><span className='bg_yellow'><a className='text-decoration-none black museoSans h2' 
                             href="https://www.girosyfinanzas.com" target="_blank" rel="noreferrer">www.girosyfinanzas.com</a>
                                 </span></p>
-                        <p className='black mb-3 d-none d-lg-block'>Envía tu dinero a cualquier país donde Western <strong>Union tenga</strong><br/>
+                        <p className='black mb-3 d-none d-lg-block'>Envía tu dinero a cualquier país donde <strong>Western Union</strong> tenga<br/>
                             presencia, desde tu <strong>Cuenta de Ahorros Giros y Finanzas</strong> o<br/>
                             de otra entidad financiera, utilizando el canal PSE.</p>     
                         <p className='black d-none d-lg-block'>El destinatario puede reclamar el dinero en minutos en un<br/>
                             punto <strong>Western Union</strong> de su país y se mantendrá disponible<br/>
                             en el sistema durante 45 días. </p>       
 
-                        <p className='black mb-3 d-lg-none'>Envía tu dinero a cualquier país donde Western <strong>Union tenga </strong>
+                        <p className='black mb-3 d-lg-none'>Envía tu dinero a cualquier país donde <strong>Western Union </strong>tenga
                             presencia, desde tu <strong>Cuenta de Ahorros Giros y Finanzas</strong> o 
                             de otra entidad financiera, utilizando el canal PSE.</p>     
                         <p className='black d-lg-none'>El destinatario puede reclamar el dinero en minutos en un punto 

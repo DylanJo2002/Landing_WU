@@ -12,10 +12,10 @@ function Card3(){
             <div className='d-flex align-items-center mb-4'>
                 <img src={logo_wu} alt="Ícono de Western Union" />
                 <p className='black mb-0 ps-3 d-none d-lg-block'>Dile a la persona que te envía un Giro<br/>
-                    desde el exterior, que lo haga a su<br/>
+                    desde el exterior, que lo haga en su<br/>
                     agencia <strong>Western Union </strong> más cercana.</p>
                     
-                <p className='black mb-0 ps-3 d-lg-none'>Dile a la persona que te envía un Giro desde el exterior, que lo haga a su
+                <p className='black mb-0 ps-3 d-lg-none'>Dile a la persona que te envía un Giro desde el exterior, que lo haga en su
                     agencia <strong>Western Union </strong> más cercana.</p>    
 
             </div>

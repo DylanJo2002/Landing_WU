@@ -25,13 +25,13 @@ function SectionAmazon() {
                         <p>Ya no necesitas tarjeta para comprar lo que siempre has deseado
                             en amazon.com ¡Acércate a cualquiera de <strong>nuestras oficinas Giros 
                                 y Finanzas  
-                            </strong> o en los puntos de pago autgorizados Efecty y paga en efectivo!
+                            </strong> o en los puntos de pago autorizados Efecty y paga en efectivo!
                         </p>
 
                         <div className="d-flex">
                             <div>
-                                <div class="fit_content bg_yellow rounded-circle container_numero">
-                                    <h5 class="mb-0">1</h5>
+                                <div className="fit_content bg_yellow rounded-circle container_numero">
+                                    <h5 className="mb-0">1</h5>
                                 </div>
                             </div>
                             <p className='ps-2'>Realiza tu proceso de compra con normalidad en <strong>
@@ -44,14 +44,14 @@ function SectionAmazon() {
 
                         <div className="d-flex">
                             <div>
-                                <div class="fit_content bg_yellow rounded-circle container_numero">
-                                    <h5 class="mb-0">2</h5>
+                                <div className="fit_content bg_yellow rounded-circle container_numero">
+                                    <h5 className="mb-0">2</h5>
                                 </div>
                             </div>
                             <p className='ps-2'>
                                 En la sección donde debes seleccionar el método de pago, escoge
                                 <strong> Pay Code Amazon - Western Union </strong> y ubicar tu oficina 
-                                Giors y Finanzas o Efecty donde realizarás el pago. Recuerda que tienes 
+                                Giros y Finanzas o Efecty donde realizarás el pago. Recuerda que tienes 
                                 un plazo de 48 horas para hacer el pago.
                             </p>
                         </div>

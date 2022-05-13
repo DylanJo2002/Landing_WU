@@ -20,18 +20,18 @@ function SectionComoEnviar(){
                             <br/><span className='bg_yellow'><a className='text-decoration-none black museoSans h2' 
                             href="https://www.girosyfinanzas.com" target="_blank" rel="noreferrer">www.girosyfinanzas.com</a>
                                 </span></p>
-                        <p className='black mb-3 d-none d-lg-block'>Envía tu dinero a cualquier país donde Western <strong>Union tenga</strong><br/>
+                        <p className='black mb-3 d-none d-lg-block'>Envía tu dinero a cualquier país donde <strong>Western Union</strong> tenga<br/>
                             presencia, desde tu <strong>Cuenta de Ahorros Giros y Finanzas</strong> o<br/>
                             de otra entidad financiera, utilizando el canal PSE.</p>     
                         <p className='black d-none d-lg-block'>El destinatario puede reclamar el dinero en minutos en un<br/>
                             punto <strong>Western Union</strong> de su país y se mantendrá disponible<br/>
                             en el sistema durante 45 días. </p>       
 
-                        <p className='black mb-3 d-lg-none'>Envía tu dinero a cualquier país donde Western <strong>Union tenga </strong>
+                        <p className='black mb-3 d-lg-none'>Envía tu dinero a cualquier país donde <strong>Western Union </strong>tenga
                             presencia, desde tu <strong>Cuenta de Ahorros Giros y Finanzas</strong> o 
                             de otra entidad financiera, utilizando el canal PSE.</p>     
                         <p className='black d-lg-none'>El destinatario puede reclamar el dinero en minutos en un punto 
-                            <strong>Western Union</strong> de su país y se mantendrá disponible en el sistema durante 45 días. </p>                
+                            <strong> Western Union</strong> de su país y se mantendrá disponible en el sistema durante 45 días. </p>                
 
                     </div>
                 </div>
@@ -48,7 +48,7 @@ function SectionComoEnviar(){
                     <div className="fit_content m-auto font_oblique font_size_recuerda">
                         <p>* El pago de la transferencia puede estar exento o sujeto al descuento<br/>
                             del Gravamen a los Movimientos Financieros (4*1.000) y depende<br/> 
-                            del monto por recibir y del medio de pago</p>
+                            del monto por recibir y del medio de pago.</p>
                     </div>
                 </div>
 
@@ -84,7 +84,7 @@ function SectionComoEnviar(){
                                     <h5 className='mb-0'>2</h5>
                                 </div>
                             </div>
-                            <p className='ps-3'>Deberá proporcionar tus datos: nombre y número de cédula.</p>
+                            <p className='ps-3'>Deberás proporcionar tus datos: nombre y número de cédula.</p>
                         </div>
 
                         <div className="d-flex flex column">
@@ -119,7 +119,7 @@ function SectionComoEnviar(){
                     <div className="fit_content m-auto font_oblique font_size_recuerda">
                         <p>* El pago de la transferencia puede estar exento o sujeto al descuento 
                             del Gravamen a los Movimientos Financieros (4*1.000) y depende del monto 
-                            por recibir y del medio de pago</p>
+                            por recibir y del medio de pago.</p>
                     </div>
                 </div>
             </div>

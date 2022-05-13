@@ -115,6 +115,16 @@ html {
     width: fit-content;
 }
 
+/*Borders*/
+.border_cards {
+    /*1. 12_Mayo_2022*/
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-width: thin;   
+    /*1. 12_Mayo_2022* END*/
+}
+ 
+
 /*Movil responsive*/
 
 @media (max-width: 991px) {

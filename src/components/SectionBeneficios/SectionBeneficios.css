@@ -1,8 +1,13 @@
-.container_beneficios {
+/* 
+    9 - 12_Mayo_2022
+    .container_beneficios {
     border-top-style: solid;
     border-top-color: #ffffff;
     border-top-width: 0.5px;
-}
+    }
+     9 - 12_Mayo_2022 END
+ 
+*/
 
 .container_content_beneficios {
     max-width: calc(100% - (50% - 363px))!important;

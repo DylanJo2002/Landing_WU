@@ -3,8 +3,8 @@ import celular from '../img/phone.png'
 
 function Card2(){
     return (
-        <div className='bg_white container_paso_giro_directo'>
-            <p className='h3 mb-4 mb-lg-5'><strong>Desde nuestra línea de<br className='d-lg-none'/>
+        <div className='bg_white container_paso_giro_directo border_cards'>
+            <p className='h3 mb-4 mb-lg-5'><strong>Desde nuestra línea de <br className='d-lg-none'/>
                 atención al cliente</strong></p> 
             
             <div className='d-flex align-items-center mb-4'>
@@ -20,10 +20,10 @@ function Card2(){
             <div className='d-flex align-items-center mb-4'>
                 <img src={password} alt="Ícono de secreto" />
                 <p className='black mb-0 ps-3  d-none d-lg-block'><strong>Dile tus datos: </strong>nombre, país de donde te<br/>
-                envía en dinero y el código MTCN.</p>
+                envían el dinero y el código MTCN.</p>
 
                 <p className='black mb-0 ps-3 d-lg-none'><strong>Dile tus datos: </strong>nombre, país de donde te 
-                    envía en dinero y el código MTCN.</p>
+                    envían el dinero y el código MTCN.</p>
             </div>
         </div>
 

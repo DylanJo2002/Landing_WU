@@ -4,8 +4,12 @@ import celular from '../img/phone.png'
 function Card2(){
     return (
         <div className='bg_white container_paso_giro_directo border_cards'>
-            <p className='h3 mb-4 mb-lg-5'><strong>Desde nuestra línea de <br className='d-lg-none'/>
+            <p className='h3 mb-4 mb-lg-5 d-none d-lg-block'><strong>Desde nuestra línea de <br/>
                 atención al cliente</strong></p> 
+
+            <p className='h3 mb-4 mb-lg-5 d-lg-none'><strong>Desde nuestra línea de 
+                atención al cliente</strong></p>  
+
             
             <div className='d-flex align-items-center mb-4'>
                 <img src={celular} alt="Ícono de celular" />

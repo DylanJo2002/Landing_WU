@@ -82,8 +82,14 @@
     }
 }
 
-@media (max-width: 329px){
+@media (max-width: 366px){
     .container_paso_giro_directo {
-        height: 33rem;
+     height: 37rem;
+    }
+}
+
+@media (max-width: 309px) {
+    .container_paso_giro_directo {
+        height: 40rem;
     }
 }

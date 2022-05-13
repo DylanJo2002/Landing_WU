@@ -6,8 +6,11 @@ import card from '../img/card.png'
 function Card3(){
     return (
         <div className='bg_white container_paso_giro_directo border_cards'>
-            <p className='h3 mb-4 mb-lg-5'><strong>Desde el exterior directo en<br/>
+            <p className='h3 mb-4 mb-lg-5 d-none d-lg-block'><strong>Desde el exterior directo en<br/>
                 tu Cuenta en Colombia</strong></p>
+
+            <p className='h3 mb-4 mb-lg-5 d-lg-none'><strong>Desde el exterior directo en 
+                tu Cuenta en Colombia</strong></p>    
             
             <div className='d-flex align-items-center mb-4'>
                 <img src={logo_wu} alt="Ícono de Western Union" />

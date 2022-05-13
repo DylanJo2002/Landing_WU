@@ -73,7 +73,7 @@ function SectioReclamarEnColombia(){
                                         </div>
                                         <p className='mb-0 ps-2'>Nuestras oficinas</p>
                                     </div>
-                                    <div className='col-12 d-flex align-items-center'>
+                                    <div className='col-12 d-flex align-items-center container_ovf_wrap'>
                                         <div>
                                             <div className='rounded-circle container_circular bg_yellow'>
                                                 <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>

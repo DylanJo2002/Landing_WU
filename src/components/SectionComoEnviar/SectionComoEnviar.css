@@ -32,6 +32,10 @@
     padding-right: 10%;
 }
 
+.font_movil_h2 {
+    font-size: larger;
+}
+
 @media (max-width: 991px){
     .container_text1_s4 {
         padding-right: 0;

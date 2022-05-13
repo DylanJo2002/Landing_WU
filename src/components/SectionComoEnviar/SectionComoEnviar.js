@@ -14,10 +14,10 @@ function SectionComoEnviar(){
 
                 </div>
 
-                <div className="col-12 col-lg-6  ">
+                <div className="col-12 col-lg-6 px-3">
                     <div className="d-flex flex-column container_text1_s4">
                         <p className='museoSans700 h3'>A través del portal transaccional
-                            <br/><span className='bg_yellow'><a className='text-decoration-none black museoSans h2' 
+                            <br/><span className='bg_yellow'><a className='text-decoration-none black museoSans font_movil_h2' 
                             href="https://www.girosyfinanzas.com" target="_blank" rel="noreferrer">www.girosyfinanzas.com</a>
                                 </span></p>
                         <p className='black mb-3 d-none d-lg-block'>Envía tu dinero a cualquier país donde <strong>Western Union</strong> tenga<br/>
@@ -52,7 +52,7 @@ function SectionComoEnviar(){
                     </div>
                 </div>
 
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-lg-6 px-3">
                     <div className="d-flex flex-column container_text2_s4 ms-0 me-auto">
                         <p className='museoSans700 h3'>Giros internacionales
                         <span className='bg_yellow museoSans h2 black ms-1'>VIGO</span></p>
@@ -116,7 +116,7 @@ function SectionComoEnviar(){
                         <img src={mujer_dinero} alt="Mujer con dinero" className="img-fluid" />
                     </div>
 
-                    <div className="fit_content m-auto font_oblique font_size_recuerda">
+                    <div className="fit_content m-auto font_oblique font_size_recuerda px-3 px-lg-0">
                         <p>* El pago de la transferencia puede estar exento o sujeto al descuento 
                             del Gravamen a los Movimientos Financieros (4*1.000) y depende del monto 
                             por recibir y del medio de pago.</p>

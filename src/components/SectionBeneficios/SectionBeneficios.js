@@ -43,7 +43,7 @@ function SectionBeneficios(){
                                     Agilidad
                                 </p>
 
-                                <p className='white'>Rapidez y seguridad en la transacción</p>
+                                <p className='white'>Rapidez y seguridad en la transacción.</p>
                             </div>
 
                         </div>
@@ -98,7 +98,7 @@ function SectionBeneficios(){
                                             Agilidad
                                         </p>
 
-                                        <p className='white'>Rapidez y seguridad en la transacción</p>
+                                        <p className='white'>Rapidez y seguridad en la transacción.</p>
                                     </div>
 
                                 </div>

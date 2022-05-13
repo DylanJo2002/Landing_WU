@@ -21,7 +21,9 @@ function SectionEnvioDirecto() {
                             <div className='container_col_envio_directo'>
                                 <p className='white h3 mb-0'>Envío Directo a</p>
                                 <p className='museoSans yellow h2 mb-3'>Cuenta Bancaria Internacional</p>
-                                <p className='openSans white'>Ahora puedes realizar tus Giros directamente a una cuenta bancaria a 100<br/>
+                                <p className='openSans white d-none d-lg-block mb-0'>Ahora puedes realizar tus Giros directamente a una cuenta bancaria a 100<br/>
+                                países en el exterior</p>
+                                <p className='openSans white d-lg-none mb-0'>Ahora puedes realizar tus Giros directamente a una cuenta bancaria a 100 
                                 países en el exterior</p>
 
                                 <button className='bg_yellow container_conocelos'
@@ -29,7 +31,10 @@ function SectionEnvioDirecto() {
                                     <p className='museoSans black mb-0'>CONÓCELOS AQUÍ</p>
                                 </button>
 
-                                <p className='openSans white mb-5'>No requieres hacer ningún tipo de inscripción al servicio, solo debes<br/>
+                                <p className='openSans white mb-5 d-none d-lg-block'>No requieres hacer ningún tipo de inscripción al servicio, solo debes<br/>
+                                contar con los datos que te solicitan según el País.</p>
+
+                                <p className='openSans white mb-5 d-lg-none'>No requieres hacer ningún tipo de inscripción al servicio, solo debes 
                                 contar con los datos que te solicitan según el País.</p>
 
                                 <p  className='museoSans700 white' >Por ejemplo, para envío de Giros a Estados Unidos</p>

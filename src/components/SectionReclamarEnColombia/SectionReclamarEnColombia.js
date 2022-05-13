@@ -25,26 +25,34 @@ function SectioReclamarEnColombia(){
                                 </p>
                                 <div className='row gap-3'>
                                     <div className='col-12  d-flex align-items-center'>
-                                        <div className='rounded-circle container_circular bg_yellow'>
-                                            <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                        <div>
+                                            <div className='rounded-circle container_circular bg_yellow'>
+                                                <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                            </div>
                                         </div>
                                         <p className='mb-0 ps-2'>Código MTCN</p>
                                     </div>
                                     <div className='col-12 d-flex align-items-center'>
-                                        <div className='rounded-circle container_circular bg_yellow'>
-                                            <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                        <div>
+                                            <div className='rounded-circle container_circular bg_yellow'>
+                                                <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                            </div>
                                         </div>
                                         <p className='mb-0 ps-2'>Nombre completo del remitente</p>
                                     </div>
                                     <div className='col-12 d-flex align-items-center'>
-                                        <div className='rounded-circle container_circular bg_yellow'>
-                                            <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                        <div>
+                                            <div className='rounded-circle container_circular bg_yellow'>
+                                                <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                            </div>
                                         </div>
                                         <p className='mb-0 ps-2'>País desde donde envían</p>
                                     </div>
                                     <div className='col-12 d-flex align-items-center'>
-                                        <div className='rounded-circle container_circular bg_yellow'>
-                                            <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                        <div>
+                                            <div className='rounded-circle container_circular bg_yellow'>
+                                                <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                            </div>
                                         </div>
                                         <p className='mb-0 ps-2'>Valor del Giro</p>
                                     </div>
@@ -58,14 +66,18 @@ function SectioReclamarEnColombia(){
                                 </p>
                                 <div className='row gap-3'>
                                     <div className='col-12  d-flex align-items-center'>
-                                        <div className='rounded-circle container_circular bg_yellow'>
-                                            <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                        <div>
+                                            <div className='rounded-circle container_circular bg_yellow'>
+                                                <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                            </div>
                                         </div>
                                         <p className='mb-0 ps-2'>Nuestras oficinas</p>
                                     </div>
                                     <div className='col-12 d-flex align-items-center'>
-                                        <div className='rounded-circle container_circular bg_yellow'>
-                                            <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                        <div>
+                                            <div className='rounded-circle container_circular bg_yellow'>
+                                                <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                            </div>
                                         </div>
                                         <p className='mb-0 ps-2'>Portal web<br/>
                                             <strong><a href="https://www.girosyfinanzas.com" className='text-decoration-none black'
@@ -73,8 +85,10 @@ function SectioReclamarEnColombia(){
                                                 www.girosyfinanzas.com</a></strong></p>
                                     </div>
                                     <div className='col-12 d-flex align-items-center'>
-                                        <div className='rounded-circle container_circular bg_yellow'>
-                                            <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                        <div>
+                                            <div className='rounded-circle container_circular bg_yellow'>
+                                                <p className='mb-0 font_size_angle_breakets'><strong>&gt;</strong></p>
+                                            </div>
                                         </div>
                                         <p className='mb-0 ps-2'>Línea nacional
                                             <strong> 01 8000 111 999</strong></p>

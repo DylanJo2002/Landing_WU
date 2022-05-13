@@ -27,7 +27,7 @@ function Card1(){
                     haciendo clic en <strong>Abona a mi cuenta</strong>.</p>
                 
                 <p className='black mb-0 ps-3 d-lg-none'>Diligencia tus datos y finaliza el proceso haciendo clic en 
-                    <strong>Abona a mi cuenta</strong>.</p>        
+                    <strong> Abona a mi cuenta</strong>.</p>        
             </div>
         </div>
 

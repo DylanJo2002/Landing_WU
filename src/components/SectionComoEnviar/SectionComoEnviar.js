@@ -31,7 +31,7 @@ function SectionComoEnviar(){
                             presencia, desde tu <strong>Cuenta de Ahorros Giros y Finanzas</strong> o 
                             de otra entidad financiera, utilizando el canal PSE.</p>     
                         <p className='black d-lg-none'>El destinatario puede reclamar el dinero en minutos en un punto 
-                            <strong>Western Union</strong> de su país y se mantendrá disponible en el sistema durante 45 días. </p>                
+                            <strong> Western Union</strong> de su país y se mantendrá disponible en el sistema durante 45 días. </p>                
 
                     </div>
                 </div>
@@ -48,7 +48,7 @@ function SectionComoEnviar(){
                     <div className="fit_content m-auto font_oblique font_size_recuerda">
                         <p>* El pago de la transferencia puede estar exento o sujeto al descuento<br/>
                             del Gravamen a los Movimientos Financieros (4*1.000) y depende<br/> 
-                            del monto por recibir y del medio de pago</p>
+                            del monto por recibir y del medio de pago.</p>
                     </div>
                 </div>
 
@@ -119,7 +119,7 @@ function SectionComoEnviar(){
                     <div className="fit_content m-auto font_oblique font_size_recuerda">
                         <p>* El pago de la transferencia puede estar exento o sujeto al descuento 
                             del Gravamen a los Movimientos Financieros (4*1.000) y depende del monto 
-                            por recibir y del medio de pago</p>
+                            por recibir y del medio de pago.</p>
                     </div>
                 </div>
             </div>

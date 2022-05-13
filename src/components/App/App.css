@@ -115,6 +115,10 @@ html {
     width: fit-content;
 }
 
+.container_ovf_wrap {
+    overflow-wrap: anywhere;
+}
+
 /*Borders*/
 .border_cards {
     /*1. 12_Mayo_2022*/

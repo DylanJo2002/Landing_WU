@@ -12,7 +12,12 @@
 
 .container_col_envio_directo {
     position: absolute;
-    margin-left: 7rem;
+}
+
+.container_s6_content {
+    max-width: calc(100% - (50% - 363px))!important;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (max-width: 991px){

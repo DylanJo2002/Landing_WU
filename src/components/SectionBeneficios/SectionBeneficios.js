@@ -124,7 +124,7 @@ function SectionBeneficios(){
                     </div>
 
                     <div className="col-12 text-center py-5">
-                        <p className='white'>El servicio Directo a cuenta sólo aplica 
+                        <p className='white'>El servicio Directo a cuenta solo aplica 
                          para las transacciones de persona a persona.</p>
                     </div>          
                 </div>

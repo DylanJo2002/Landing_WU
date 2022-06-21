@@ -1,5 +1,11 @@
 import './SectionReclamarEnColombia.css'
 import logo from './img/logos_colombia.png'
+import logo_banco_agrario from './img/logo_banco_agrario.png'
+import logo_corresponsal_cfa from './img/logo_corresponsal_cfa.png'
+import logo_corresponsal_coopenesa from './img/logo_corresponsal_coopenesa.png'
+import logo_corresponsal_efecty from './img/logo_corresponsal_efecty.png'
+import logo_corresponsal_multipagas from './img/logo_corresponsal_multipagas.png'
+import logo_cooresponsal_puntored from './img/logo_corresponsal_puntored.png'
 
 function SectioReclamarEnColombia(){
     return (

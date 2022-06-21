@@ -119,6 +119,11 @@ html {
     overflow-wrap: anywhere;
 }
 
+.img_fluid {
+    width: 100%;
+    height: auto;
+}
+
 /*Borders*/
 .border_cards {
     /*1. 12_Mayo_2022*/

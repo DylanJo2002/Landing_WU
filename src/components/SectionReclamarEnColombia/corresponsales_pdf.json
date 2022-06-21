@@ -1,0 +1,35 @@
+{
+    "corresponsales": [
+        {
+            "name": "Logo corresponsal efecty",
+            "path": "images/logo_corresponsal_efecty.png",
+            "pdf" : ""
+        },
+        {
+            "name": "Logo corresponsal Banco Agrario",
+            "path": "images/logo_banco_agrario.png",
+            "pdf" : ""
+        },
+        {
+            "name": "Logo corresponsal Multipagas",
+            "path": "images/logo_corresponsal_multipagas.png",
+            "pdf" : ""
+        },
+        {
+            "name": "Logo corresponsal Puntored",
+            "path": "images/logo_corresponsal_puntored.png",
+            "pdf" : "https://lineadecodigo.com/html/imagen-con-enlace-en-html/"
+        },
+        {
+            "name": "Logo corresponsal Coopenessa",
+            "path": "images/logo_corresponsal_coopenesa.png",
+            "pdf" : ""
+        },
+        {
+            "name": "Logo corresponsal CFA",
+            "path": "images/logo_corresponsal_cfa.png",
+            "pdf" : ""
+        }
+    ]
+        
+}

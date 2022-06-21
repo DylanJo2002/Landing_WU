@@ -1,13 +1,16 @@
 import './SectionReclamarEnColombia.css'
-import logo from './img/logos_colombia.png'
+// import logo from './img/logos_colombia.png'
 import logo_banco_agrario from './img/logo_banco_agrario.png'
 import logo_corresponsal_cfa from './img/logo_corresponsal_cfa.png'
 import logo_corresponsal_coopenesa from './img/logo_corresponsal_coopenesa.png'
 import logo_corresponsal_efecty from './img/logo_corresponsal_efecty.png'
 import logo_corresponsal_multipagas from './img/logo_corresponsal_multipagas.png'
 import logo_cooresponsal_puntored from './img/logo_corresponsal_puntored.png'
+import logos_json from './corresponsales_pdf.json'
 
 function SectioReclamarEnColombia(){
+    const logos = [logo_banco_agrario,logo_corresponsal_cfa,logo_corresponsal_coopenesa
+        ,logo_corresponsal_efecty, logo_corresponsal_multipagas, logo_cooresponsal_puntored];
     return (
         <div>
             <div className="row p-0 container_sectionReclamarColombia mx-0">
@@ -115,7 +118,18 @@ function SectioReclamarEnColombia(){
                                 </p>
 
 
-                                <img className='img-fluid' src={logo} alt="Logos de corresponsales" />
+                                {/* <img className='img-fluid' src={logo} alt="Logos de corresponsales" /> */}
+                                <div className="row text-center">
+                                    {logos_json.corresponsales.map(logo => {
+                                        return (
+                                            <div className="col-6 p-0">
+                                                <a href={logo.pdf} target="_blank">
+                                                    <img src={logo.path} alt={logo.name} className='img_fluid'/>
+                                                </a>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
                             </div>
                         </div>
                 </div>

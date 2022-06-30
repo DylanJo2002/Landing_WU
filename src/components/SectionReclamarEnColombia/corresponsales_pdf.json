@@ -1,34 +1,40 @@
 {
     "corresponsales": [
         {
-            "name": "Logo corresponsal efecty",
+            "alt": "Logo corresponsal efecty",
             "path": "images/logo_corresponsal_efecty.png",
-            "pdf" : ""
+            "pdf" : "https://www.girosyfinanzas.com/wps/wcm/connect/girosyfinanzas/a1d9f46f-3dea-48fd-afdf-2ef7bb968ff6/OFICINAS+EFECTY.pdf?MOD=AJPERES&CVID=o66S5RY&CVID=o66S5RY&CVID=o4.Lw-0&CVID=o4.Lw-0&CVID=o4.Lw-0&CVID=o4.Lw-0&CVID=o4.Lw-0",
+            "id": "efecty_convenio"
         },
         {
-            "name": "Logo corresponsal Banco Agrario",
+            "alt": "Logo corresponsal Banco Agrario",
             "path": "images/logo_banco_agrario.png",
-            "pdf" : ""
+            "pdf" : "https://www.girosyfinanzas.com/wps/wcm/connect/girosyfinanzas/de49367a-3912-49c1-8cd2-b2efe3fdd8f3/OFICINAS+BANCO+AGRARIO.pdf?MOD=AJPERES&CVID=o54UXpf&CVID=o54UXpf&CVID=o54UXpf&CVID=o4GtChJ&CVID=o4GtChJ&CVID=o4GtChJ&CVID=o4GtChJ&CVID=o4GtChJ",
+            "id": "bagrario_convenio"
         },
         {
-            "name": "Logo corresponsal Multipagas",
+            "alt": "Logo corresponsal Multipagas",
             "path": "images/logo_corresponsal_multipagas.png",
-            "pdf" : ""
+            "pdf" : "https://www.girosyfinanzas.com/wps/wcm/connect/girosyfinanzas/aff3e1f7-2996-45bb-b26a-07db2273ce90/OFICINAS+MULTIPAGAS.pdf?MOD=AJPERES&CVID=o55iJ1P&CVID=o55iJ1P&CVID=o54TPRk&CVID=o54TPRk&CVID=o4.LT9l&CVID=o4.LT9l&CVID=o4.LT9l",
+            "id": "multipagas_convenio"
         },
         {
-            "name": "Logo corresponsal Puntored",
+            "alt": "Logo corresponsal Puntored",
             "path": "images/logo_corresponsal_puntored.png",
-            "pdf" : "https://lineadecodigo.com/html/imagen-con-enlace-en-html/"
+            "pdf" : "https://www.girosyfinanzas.com/wps/wcm/connect/girosyfinanzas/d5bd982c-0deb-4577-9662-13c380d83872/OFICINAS+PUNTO+RED.pdf?MOD=AJPERES&CVID=o54TX8i&CVID=o54TX8i&CVID=o54TX8i&CVID=o54TX8i&CVID=o4.M5nm&CVID=o4.M5nm&CVID=o4.M5nm",
+            "id": "puntored_convenio"
         },
         {
-            "name": "Logo corresponsal Coopenessa",
+            "alt": "Logo corresponsal Coopenessa",
             "path": "images/logo_corresponsal_coopenesa.png",
-            "pdf" : ""
+            "pdf" : "https://www.girosyfinanzas.com/wps/wcm/connect/girosyfinanzas/2ad8b82e-9fb5-42d4-ac8b-7ccfec5fe325/OFICINAS+Coopenesa.pdf?MOD=AJPERES&CVID=o55izNR&CVID=o55izNR&CVID=o54WFtm&CVID=o54TLOI&CVID=o4.MfkR&CVID=o4.MfkR&CVID=o4.MfkR",
+            "id": "coopenessa_convenio"
         },
         {
-            "name": "Logo corresponsal CFA",
+            "alt": "Logo corresponsal CFA",
             "path": "images/logo_corresponsal_cfa.png",
-            "pdf" : ""
+            "pdf" : "https://www.girosyfinanzas.com/wps/wcm/connect/girosyfinanzas/68fb4be6-931e-492b-94fa-13afea3a9f20/OFICINAS+CFA.pdf?MOD=AJPERES&CVID=o55iuGF&CVID=o55iuGF&CVID=o54TI0G&CVID=o54TI0G&CVID=o4.L-5r&CVID=o4.L-5r&CVID=o4.L-5r",
+            "id": "cfa_convenio"
         }
     ]
         

@@ -112,19 +112,21 @@ function SectioReclamarEnColombia(){
                         </div>
                         <div className="col-12 col-lg bg_soft_grey container_paso border_cards">
                             <div className="container_content_paso">
-                                <p className='museoSans700 h3 mb-4'>
-                                    O en nuestros<br />
-                                    Corresponsales:
+                                <p className='museoSans700 h3'>
+                                    En nuestros <br className='d-none d-lg-block'/>
+                                    Corresponsales, en más de 850 ciudades
                                 </p>
-
+                                <p class="font_oblique font_size_recuerda">
+                                    Haz clic en cada corresponsal y conoce sus oficinas
+                                </p>
 
                                 {/* <img className='img-fluid' src={logo} alt="Logos de corresponsales" /> */}
                                 <div className="row text-center">
                                     {logos_json.corresponsales.map(logo => {
                                         return (
                                             <div className="col-6 p-0">
-                                                <a href={logo.pdf} target="_blank">
-                                                    <img src={logo.path} alt={logo.name} className='img_fluid'/>
+                                                <a href={logo.pdf} target="_blank" rel='noreferrer'>
+                                                    <img src={logo.path} alt={logo.alt} className='img_fluid'/>
                                                 </a>
                                             </div>
                                         )
